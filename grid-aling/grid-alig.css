@@ -1,0 +1,18 @@
+@import url(/style.css);
+
+.grid-aling{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(2, 200px);
+    
+    justify-items: stretch;
+    /* justify-items: center;
+    justify-items: end;
+    justify-items: start; */
+}
+
+.grid-aling .item:nth-child(2){
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+}

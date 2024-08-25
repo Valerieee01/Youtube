@@ -1,0 +1,67 @@
+@import url(../style.css);
+
+.container{
+    
+}
+
+.grid-capas{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(4, 250px);
+    margin: auto;
+}
+
+.grid-capas .item:nth-child(1){
+    background-color: rgb(230, 85, 162);
+    background-image: url(img/png-transparent-uniqua-arms-crossed-cartoons-the-backyardigans-thumbnail-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center;
+    grid-column: 1 /3;
+    grid-row: 1 /3;
+    order: 2;
+}
+
+.grid-capas .item:nth-child(2){
+    background-color: rgb(86, 86, 226);
+    background-image: url(img//png-transparent-the-backyardigans-pablo-cartoons-the-backyardigans-thumbnail-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 3 /5;
+    grid-row: 1 /3;
+}
+
+.grid-capas .item:nth-child(3){
+    background-color: rgb(255, 102, 0);
+    background-image: url(img/png-transparent-tyrone-arms-crossed-cartoons-the-backyardigans-thumbnail-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 1/3;
+    grid-row: 3/5;
+    order: 4;
+
+    
+}
+
+.grid-capas .item:nth-child(4){
+    background-color: rgb(236, 222, 25);
+    background-image: url(img/png-transparent-the-backyardigans-tasha-cartoons-the-backyardigans-thumbnail-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 3/5;
+    grid-row: 3/5;
+    order: 1;
+
+}
+
+.grid-capas .item:nth-child(5){
+    background-color: purple;
+    background-image: url(img/png-transparent-austin-arms-crossed-cartoons-the-backyardigans-thumbnail-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    z-index: 1;
+    order: 3;
+
+}
